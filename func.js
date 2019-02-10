@@ -11,6 +11,8 @@ function useIt(page) {
 
     document.querySelector('#container').appendChild(
       document.importNode(el, true));
+
+    myFunction()
   }
 
   function myFunction() {
