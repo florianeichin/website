@@ -13,4 +13,21 @@ function useIt(page) {
       document.importNode(el, true));
   }
 
+  function myFunction() {
+    var x = document.getElementById("menu");
+    if (x.className === "navigation") {
+      x.className += " responsive";
+    } else {
+      x.className = "navigation";
+    }
+    var x = document.getElementById("menu-icon");
+    if (x.className === "fa fa-bars") {
+      x.className = "fa fa-times";
+    } else {
+      x.className = "fa fa-bars";
+    }
+
+  }
+
+
   useIt("about")
