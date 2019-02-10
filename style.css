@@ -1,7 +1,8 @@
 body {
 	color:#34495e;
 	font-family:Source Sans Pro;
-	font-size:13px;
+	max-width: 1000px;
+    margin: auto;
 	
 }
 h1{
