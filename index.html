@@ -1,14 +1,5 @@
 <!doctype html>
 <html>
-<!--
-
-    todo:
-        [] navigation responsive
-        [] html auslagern
-        [] images resizen mit python script
-
--->
-
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>Florian Eichin</title>
@@ -19,23 +10,19 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<link rel="import" href="about.html">-->
-
-
-
 </head>
 
 
 <body>
   <div class="header">
     <div id="logo"><b>Florian Eichin</b> Software Developer</div>
-    <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+    <a href="javascript:void(0);" class="hamburger" onclick="menuToggle()">
       <i id="menu-icon" class="fa fa-bars"></i>
     </a>
     <div id="menu" class="navigation">
-      <button onclick="useIt('about')">About</button>
-      <button onclick="useIt('tools')">Tools & Technologies</button>
-      <button onclick="useIt('contact')">Contact</button>
+      <button onclick="navigate('about')">About</button>
+      <button onclick="navigate('tools')">Tools & Technologies</button>
+      <button onclick="navigate('contact')">Contact</button>
     </div>
 
 
@@ -93,14 +80,12 @@
     <div class="about">
       <h2>SOFTWARE DEVELOPER</h2>
       <p>I am a Student of computer science & economics at IBM based in southern Germany, software developer and
-        tech
-        enthusiast. I'm highly interested in topics like cloud, docker, microservices and coding close to the
-        hardware.
+        tech enthusiast. I'm highly interested in topics like cloud, docker, microservices and coding close to the
+        hardware. 
         I always focus on topics like cryptography and security in all fileds, from developing for fips 140-2 level 4
-        crypto cards like IBMs Crypto Express to open source docker contributions for image signing.
-        Besides I really appreciate to create architectures, concerning complex infrastructure. But as you might
-        see,
-        I'm not a webdesigner... I will finish my bachelors degree in 2019. For more information visit my linkedin
+        crypto cards like IBMs Crypto Express to open source docker contributions for image signing. 
+        Besides I really appreciate to create architectures, concerning complex infrastructure. 
+        I will finish my bachelors degree in 2019. For more information visit my linkedin
         profile.</p>
 
       <h2>WORK</h2>

@@ -164,7 +164,6 @@ div.navigation {
 }
 
 div.navigation button {
-	
 	margin-left:15px;
 	text-transform: uppercase;
 	border: none;
@@ -176,11 +175,6 @@ div.navigation button.active, div.navigation button:hover {
 	border-color:#337ab7;
 }
 
-
-
-
-
-
   .active {
 	background-color: #4CAF50;
 	color: white;
@@ -190,7 +184,7 @@ div.navigation button.active, div.navigation button:hover {
 	display: none;
   }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
 	#logo{
 		text-align: center;
 	}
@@ -221,7 +215,7 @@ div.navigation button.active, div.navigation button:hover {
 	}
   }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
 	.navigation.responsive {
 		border-bottom: 1px solid lightgrey;
 		border-top: 1px solid lightgrey;
