@@ -7,8 +7,12 @@ function navigate(page) {
 
   document.querySelector('#container').appendChild(
     document.importNode(el, true));
-
-
+    menuToggle()
+  
+}
+function init(page){
+  navigate(page)
+  menuToggle()
 }
 
 function menuToggle() {
@@ -31,4 +35,4 @@ function menuIconToggle(){
 }
 
 
-navigate("about")
+init("about")
